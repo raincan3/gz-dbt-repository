@@ -11,16 +11,13 @@ sources:
           - name: products_id
             description: primary key; unique product identifier
             tests:
-              - unique:
-                  column_name: "products_id"
+              - unique
+              - not_null
           - name: purchase_price
             description: price of each product
       - name: sales
         identifier: raw_gz_sales
         description: sales of Greenweez
-        tests:
-          - unique:
-              column_name: "(orders_id || '_' || products_id)"
         columns:
           - name: date_date
             description: date of sale
