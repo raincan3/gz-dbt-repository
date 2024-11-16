@@ -18,6 +18,11 @@ sources:
       - name: sales
         identifier: raw_gz_sales
         description: sales of Greenweez
+        loaded_at_field: cast(date_date as timestamp)
+        freshness: 
+          warn_after:
+            count: 90
+            period: day
         columns:
           - name: date_date
             description: date of sale
