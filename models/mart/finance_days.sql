@@ -14,4 +14,4 @@ using (orders_id)
 join {{ref("stg_raw__ship")}} s
 using (orders_id)
 group by o.date_date
-order by o.date_date
+order by o.date_date desc
