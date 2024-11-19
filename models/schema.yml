@@ -49,7 +49,7 @@ sources:
             description: logcost per order
           - name: ship_cost
             description: ship cost per order
-      - name: adwordds
+      - name: adwords
         identifier: raw_gz_adwords
         description: Adwords campaign data
         columns:
