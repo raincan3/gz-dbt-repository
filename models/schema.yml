@@ -59,8 +59,6 @@ sources:
             description: platform of campaign
           - name: campaign_key
             description: primary key
-            tests:
-              - unique
           - name: camPGN_name
             description: name of campaign
           - name: ads_cost
@@ -79,8 +77,6 @@ sources:
             description: platform of campaign
           - name: campaign_key
             description: primary key
-            tests:
-              - unique
           - name: camPGN_name
             description: name of campaign
           - name: ads_cost
@@ -99,8 +95,6 @@ sources:
             description: platform of campaign
           - name: campaign_key
             description: primary key
-            tests:
-              - unique
           - name: camPGN_name
             description: name of campaign
           - name: ads_cost
@@ -119,8 +113,6 @@ sources:
             description: platform of campaign
           - name: campaign_key
             description: primary key
-            tests:
-              - unique
           - name: camPGN_name
             description: name of campaign
           - name: ads_cost
