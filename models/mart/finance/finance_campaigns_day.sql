@@ -11,7 +11,6 @@ select
     total_purchase_cost,
     total_shipping_fees,
     total_log_costs
-from {{ref("finance_days")}} 
-join {{ref("int_campaigns_day")}} 
-using (date_date)
+from {{ ref("finance_days") }}
+join {{ ref("int_campaigns_day") }} using (date_date)
 order by date_date desc
