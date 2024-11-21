@@ -52,6 +52,9 @@ sources:
       - name: adwords
         identifier: raw_gz_adwords
         description: Adwords campaign data
+        tests:
+          - unique:
+              column_name: "(campaign_key || '_' || date_date)"
         columns:
           - name: date_date
             description: date of campaign
