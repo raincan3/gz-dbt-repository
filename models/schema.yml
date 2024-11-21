@@ -132,5 +132,17 @@ sources:
           - name: impression
             description: number of impressions
           - name: click
-            description: number of clicks  
+            description: number of clicks
+      - name: int_campaigns_day
+        description: daily aggregated version of int_campaigns
+        columns:
+          - name: date_date
+            description: date of campaign
+          - name: ads_cost
+            description: total daily ads costs
+          - name: ads_impression
+            description: total daily ads impressions
+          - name: ads_click
+            description: total daily ads clicks
+         
           
